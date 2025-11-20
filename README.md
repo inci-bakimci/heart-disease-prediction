@@ -16,3 +16,26 @@ Amaç, açık kaynaklı sağlık verileri üzerinde eğitim yapılmış bir mode
 1. Lokal ortamda FastAPI server çalıştır:
 ```bash
 uvicorn app:app --reload
+Tarayıcıdan Swagger UI’yi aç:
+
+http://127.0.0.1:8000/docs
+
+
+POST /predict endpoint’i ile veri gönder ve tahmini al.
+
+Gereksinimler
+
+Python 3.8 veya üstü
+
+FastAPI
+
+scikit-learn
+
+pandas, numpy, joblib
+
+(Opsiyonel) React veya başka frontend kütüphanesi
+
+Kurulum
+git clone https://github.com/kullaniciadi/heart-disease-prediction.git
+cd heart-disease-prediction
+pip install -r requirements.txt
