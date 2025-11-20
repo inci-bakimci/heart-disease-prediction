@@ -16,12 +16,12 @@ Amaç, açık kaynaklı sağlık verileri üzerinde eğitim yapılmış bir mode
 1. Lokal ortamda FastAPI server çalıştır:
 ```bash
 uvicorn app:app --reload
-Tarayıcıdan Swagger UI’yi aç:
+1.2 Tarayıcıdan Swagger UI’yi aç:
 
 http://127.0.0.1:8000/docs
 
 
-POST /predict endpoint’i ile veri gönder ve tahmini al.
+1.3 POST /predict endpoint’i ile veri gönder ve tahmini al.
 
 Gereksinimler
 
